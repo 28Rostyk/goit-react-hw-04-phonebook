@@ -1,0 +1,21 @@
+.contactItem {
+  display: flex;
+  align-items: center;
+}
+
+.contactItem:not(:first-child) {
+  margin-top: 8px;
+}
+
+.contactName {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.contactNumber {
+  margin: 0 20px 0 auto;
+}
+
+.delButton {
+  cursor: pointer;
+}
